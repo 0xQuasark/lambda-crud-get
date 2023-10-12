@@ -1,4 +1,4 @@
-# Lamda POST
+# Lamda GET
 
 This Lambda function posts a person to a database
 

@@ -14,7 +14,7 @@ let results = null;
 let personModel = dynamoose.model('cf-lambda-crud', peopleSchema); // first argument is the name of the table
 
 exports.handler = async (event) => {
-  console.log('crudGET 1.1');
+  console.log('crudGET 1.2');
   console.log('HERE IS THE EVENT OBJECT', event)
   // console.log('Here are the path parameters: ', event.pathParameters)
 
