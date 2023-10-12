@@ -1,6 +1,9 @@
 # Lamda GET
 
-This Lambda function posts a person to a database
+This Lambda function gets a person to a database
+
+## Live deployment
+- [Deployed API](https://yjmx6t39sk.execute-api.us-west-2.amazonaws.com/Completed/people)
 
 ## Description
 Create a single resource REST API using a domain model of your choosing, constructed using AWS Cloud Services.
