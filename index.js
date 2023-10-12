@@ -19,7 +19,8 @@ exports.handler = async (event) => {
   // console.log('Here are the path parameters: ', event.pathParameters)
 
   if (event.pathParameters.id) {
-    results = await personModel.query('id').eq(event.pathParameters.id).exec();
+    let list = await personModel.query('id').eq(parseInt(event.pathParameters.id)).exec();
+    results = list[0];
   } else {
     try {
       results = await personModel.scan().exec();
